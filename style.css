@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    overflow-x:hidden;
+    color: white;
+}
+.navbar{
+    height: 70px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #844689;
+    color: white;
+}
+.nav-login{
+    background-color: white;
+    color: #844689;
+    font-weight: 700;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-logo{
+    font-weight: 800;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.hero1{
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h11{
+    position:absolute;
+    left: -51px;
+}
+.h12{
+    position:absolute;
+    right: -50vw;
+    top:-29vh;
+}
+.hero1-text{
+
+}
+.hero2{
+    height: 100vh;
+    width: 100vw;
+}
+.purple{
+
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    justify-content: center;
+    align-items: center;
+}
+.black{
+    background-color: black;
+    height: 421px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap:27px ;
+    justify-content: center;
+    align-items: center;
+}
+.blk-logos{
+    display: flex;
+    gap: 20px;
+}
+.footer{
+    height: 60px;
+    text-align: center;
+    align-content: center;
+    background-color: #533a71;
+}
