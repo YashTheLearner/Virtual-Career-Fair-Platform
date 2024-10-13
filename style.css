@@ -3,17 +3,23 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "poppins";
-    overflow-x:hidden;
-    color: white;
+    /* overflow-x:hidden; */
+}
+body{
+    color:white;
+        overflow-x:hidden;
 }
 .navbar{
+    position: fixed;
     height: 70px;
+    width: 100vw;
     font-weight: 500;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #844689;
     color: white;
+    z-index: 1000;
 }
 .nav-login{
     background-color: white;
@@ -31,29 +37,59 @@
     text-transform: uppercase;
 }
 .hero1{
-    background-color: aquamarine;
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #000;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+.h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.t2{
+    color: #d65e7c;
+}
+.h1-btn{
+    font-size: 24px;
+    font-weight: semi-bold;
+    margin-top: 40px;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 20px;
+    color: white;
+    background-color: #533a71;
 }
 .h11{
     position:absolute;
-    left: -51px;
+    display: hidden;
+    left: -27px;
+    top:13vh;
+    z-index: 1;
 }
 .h12{
     position:absolute;
+    display: hidden;
     right: -50vw;
-    top:-29vh;
+    top:-27vh;
+    z-index: 2;
 }
-.hero1-text{
-
+.h13{
+    position:absolute;
+    display: hidden;
+    z-index: 3;
+    top: -108.5vh;
 }
 .hero2{
-    height: 100vh;
+    height: 1797px;
     width: 100vw;
+    background-image: url(assets/Group\ 102671.png);
+    position: relative;
+    z-index: 9;
 }
 .purple{
 
@@ -80,6 +116,7 @@
 }
 .footer{
     height: 60px;
+    width: 100vw;
     text-align: center;
     align-content: center;
     background-color: #533a71;
